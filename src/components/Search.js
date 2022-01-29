@@ -1,5 +1,5 @@
 import styles from "./Search.module.css";
-import { FaSearch } from "react-icons/fa"
+import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
 
@@ -19,7 +19,7 @@ export function Search() {
                     className={`${styles.searchInput} input is-rounded is-primary`} 
                     type="text" 
                     value={search}
-                    placeholder="Title"
+                    placeholder="Título"
                     aria-label="Search Movies" 
                     onChange={(e) => {
                         const value = e.target.value;

@@ -5,6 +5,7 @@
 }
 
 .spinning {
+    color: #ea4aaa;
     animation: spinner 1s linear infinite;
 }
 
