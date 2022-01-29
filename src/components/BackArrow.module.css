@@ -1,0 +1,16 @@
+.backArrow {
+    background-color: transparent;
+    color: hsl(171, 100%, 41%);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0.5rem;
+    transition: transform .2s;
+}
+
+.backArrow:hover {
+    transform: scale(1.5);
+}
