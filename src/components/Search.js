@@ -16,7 +16,7 @@ export function Search() {
         <form className={styles.searchContainer} onSubmit={handleSubmit}>
             <div className={styles.searchBox} action="">
                 <input 
-                    className={styles.searchInput} 
+                    className={`${styles.searchInput} input is-rounded is-primary`} 
                     type="text" 
                     value={search}
                     placeholder="Title"
@@ -28,7 +28,7 @@ export function Search() {
                     name="" 
                     id="" 
                 />
-                <button className={styles.searchButton} type="submit">
+                <button className={styles.searchButton}>
                 <FaSearch size={20} />
                 </button>
             </div>
